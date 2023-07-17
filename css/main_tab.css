@@ -1,0 +1,237 @@
+@charset 'utf-8';
+
+/* 1000px 태블릿 사이즈 */
+@media all and (max-width:1000px){
+    /* 퀵메뉴 영역*/
+    .quick_btn{
+        display: block;
+        position: fixed;
+        right: 40px;
+        bottom:301px;
+        z-index: 100;
+    }
+    .quick_btn a{
+        display: block;
+        width: 30px;
+        height: 30px;
+        text-indent: -9999px;
+    }
+    .quick_btn .instagram{
+        background: url(../images/ico_instagram.png) no-repeat center/100% auto;
+        margin-bottom: 10px;
+    }
+    .quick_btn .facebook{
+        background: url(../images/ico_facebook.png) no-repeat center/100% auto;
+        margin-bottom: 10px;
+    }
+    .quick_btn .blog{
+         background: url(../images/ico_blog.png) no-repeat center/100% auto;
+        margin-bottom: 10px;
+    }
+     .quick_btn .top_btn{
+        width: 29px;
+        height: 33px;
+        background: url(../images/top_btn.png) no-repeat center;
+    } 
+    /* 헤더영역 */
+    .pc_header{
+        display: none;
+    }
+    .tab_header{
+        display: block;
+        height: 99px;
+        border-bottom: 1px solid #60424c;
+    }
+    .tab_header .tab_openmenu{
+        width: 100px;
+        height: 100px;
+        text-indent: -9999px;
+        border: 0;
+        background: url(../images/ico_tab_openmenu.png) no-repeat center/50px auto;
+        position: absolute;
+        top: 0;
+        left: 40px;
+    }
+    .tab_header .tab_logo{
+        width: 255px;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+    .tab_header .tab_logo a img{
+        width: 100%;
+        height: auto;
+    }
+    .tab_header .tab_search{
+        width: 100px;
+        height: 100px;
+        text-indent: -9999px;
+        border: 0;
+        background: url(../images/ico_tab_search.png) no-repeat center/50px auto;
+        position: absolute;
+        top: 0;
+        right: 40px;
+    }
+    
+    /* 메인비쥬얼 영역 */
+    #mainvisual ul .mainvisual_pc{
+        display: none;
+    }
+    #mainvisual ul .mainvisual_tab{
+        display: block;
+        width: 100%;
+        position: relative;
+    }
+    #mainvisual ul .mainvisual_tab img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .reservation_tab .res_in{
+        width: calc(100% - 80px);
+        margin: 0 auto;
+        padding: 0 40px;
+        background: rgba(0,0,0,0.5);
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+    .reservation_tab .res_in .res_top{
+        padding: 15px 0;
+        border-bottom: 1px solid #9d9893;
+        text-align: center;
+    }
+    .reservation_tab .res_in .res_top .res_wrap{
+        display: inline-block;
+    }
+    .reservation_tab .res_in .res_top .res_wrap .txt{
+        font-size: 14px;
+        line-height: 1.3em;
+        color: #fff;
+        padding-left: 50px;
+        background: url(../images/ico_calender_pc.png) no-repeat 0 center;
+    }
+    .reservation_tab .res_in .res_top .res_wrap .txt span{
+        display: inline-block;
+        width: 17px;
+        height: 16px;
+        background: #ff8f56;
+        text-align: center;
+        line-height: 16px;
+    }
+
+    .reservation_tab .res_in .res_bottom{
+        padding: 12px 0 15px;
+        text-align: center;
+    }
+    .reservation_tab .res_in .res_bottom .date{
+        font-size: 12px;
+        line-height: 19px;
+        color: #fff;
+        display: inline-block;
+    }
+    .reservation_tab .res_in .res_bottom .date span{
+        display: inline-block;
+        width: 19px;
+        height: 19px;
+        border-radius: 50%;
+        background: #ff5959;
+    }
+    
+    .reservation_mo{
+        display: none;
+    }
+    /* row1_안내영역 */
+    .row1 .row_in{
+       padding: 0 40px;
+       width:  calc(100% - 80px);    
+    }
+    .row1 .row_in .guidance li{
+        width: 50%;
+        height: 250px;
+    }
+
+    .row1 .row_in .guidance .tit{
+        margin-top: 60px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+    .row1 .row_in .guidance .go_btn{
+        top: 60px;
+        left: 110px;
+    }
+    .row1 .row_in .guidance .txt{
+        margin-left: 30px;
+    }
+    .row1 .row_in .guidance .bg_ico_wrap{
+        right: 20px;
+        bottom: 20px;
+    }
+    
+    /* row2_제주고산리유적소식 */
+    .row2 .row_in{
+        width: calc(100% - 80px);
+        padding : 0 40px;
+    }
+    .row2 .row_in .tit{
+        display: none;
+    }
+    .row2 .row_in .left{
+        width: 100%;
+        height: 349px;
+        float: none;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .row2 .row_in .left .left_top:after{
+        width:876px;
+        height: 1px;
+        bottom: 0;
+        left:10px;
+    }
+
+    .row2 .row_in .left .left_top .more_view{
+        top: 15px;
+        right: 15px;
+    }
+
+    .row2 .row_in .left .left_bottom{
+        padding: 50px 15px 40px;
+    }
+
+    .row2 .row_in .right1{
+        width: calc((100% - 20px)/2) ;
+        margin-bottom: 20px;
+    }
+   
+    .row2 .row_in .right2{
+        width: calc((100% - 20px)/2) ;
+    }
+
+    .row2 .row_in .experience_btn{
+        display: none;
+    }
+    .row2 .row_in .experience_btn_tab{
+        display: block;
+        width: 100%;
+    }
+    .row2 .row_in .experience_btn_tab img{
+        width: 100%;
+        height: auto;
+    }
+    
+    /* row3_유적소개, 유적발견 */
+    .row3{
+        display: none;
+    }    
+    
+    /* 푸터영역 */
+    #footer .f_in{
+        width: calc(100% - 80px);
+        padding: 0 40px;
+        position: relative;
+    }
+    
+    #footer .f_in .fbottom .flink{
+        display: none;
+    } 
+}

@@ -119,7 +119,7 @@
         padding: 30px;
     }
     .row2 .row_in .left .left_top:after{
-        width: 538px;
+        width: calc(100% - 50px);
         left: 25px;
     }
     .row2 .row_in .left .left_top .left_tit{

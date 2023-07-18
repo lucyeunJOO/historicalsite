@@ -183,10 +183,10 @@
         margin-bottom: 30px;
     }
     .row2 .row_in .left .left_top:after{
-        width:876px;
+        width:calc(100% - 20px);
         height: 1px;
         bottom: 0;
-        left:10px;
+        left: 10px;
     }
 
     .row2 .row_in .left .left_top .more_view{
